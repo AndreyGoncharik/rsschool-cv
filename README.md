@@ -1,3 +1,3 @@
-# rsschool-cv
-[https://github.com/AndreyGoncharik.github.io/rsschool-cv/cv](https://github.com/AndreyGoncharik.github.io/rsschool-cv/cv)
-[https://github.com/AndreyGoncharik.github.io/rsschool-cv/](https://github.com/AndreyGoncharik.github.io/rsschool-cv/)
+# rsschool-cv-html
+[https://andreygoncharik.github.io/rsschool-cv/cv](https://andreygoncharik.github.io/rsschool-cv/cv) \
+[https://andreygoncharik.github.io/rsschool-cv/](https://andreygoncharik.github.io/rsschool-cv/)  \
