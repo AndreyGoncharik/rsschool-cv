@@ -19,7 +19,7 @@
                     <a href="#skills">Skills</a>
                 </li>
                 <li>
-                    <a href="#footer">Links</a>
+                    <a href="#code">Code</a>
                 </li>
             </ul>
         </nav>
@@ -53,7 +53,7 @@
                 </div>
             </section>
             <section id="skills" class="flex-box">
-                <div class="left-box"><h2>Skills & Education :</h2></div>
+                <div class="left-box"><h2>Skills & Education:</h2></div>
                 <div class="skills-box">
                     <ul>
                         <li>HTML & CSS</li>
@@ -66,7 +66,27 @@
                     <div class="education"><h3>Courses:</h3> Udemy, HTML Academy, Learn.javascript & ect</div>
                     <div class="education"><h3>Languages:</h3> Russian, Belarusian - native , English - B1</div>
                 </div>
-                
+            </section>
+
+            <section id="code" class="flex-box">
+                <div class="left-box"><h2>Code & Poject:</h2></div>
+                <div class="skills-box">
+                <p>Utility for accounting of repair work. <a href="https://github.com/AndreyGoncharik/to">Source</a> <br>
+                    HTML, CSS, JS. (Firebase as database is in progress). 
+                </p>
+<pre>
+<code>
+editModalYes.onclick = () => {
+    console.log(`del ${itemNum}`);
+    localStorage.removeItem([itemNum]);
+    itemCard.classList.add('uk-slide-right');
+    document.querySelector('#edit-modal').hide();
+    let r = () => itemCard.remove();
+    setTimeout(r, 400);
+    modalFon.classList.remove('fon-up');
+};
+</code></pre>
+                </div>
             </section>
         </main>
         <footer id="footer">
