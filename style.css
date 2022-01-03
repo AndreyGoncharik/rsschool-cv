@@ -96,7 +96,7 @@ h1 {
 }
 .contacts h2 {
     margin: 20px 0 0 0;
-    font-weight: 400;
+    font-weight: 500;
 }
 .contacts ul {    
     display: flex; 
@@ -109,11 +109,31 @@ h1 {
 }
 .contacts ul li a{
     text-decoration: none;
+
 }
 
 /* Main */
 main {
     flex: 1 0 auto;
+    margin-top: 20px;
+}
+
+#aboutme .left-box {
+    padding: 25px;
+}
+#aboutme .left-box h2 {
+    display: inline-flex; 
+    align-self: baseline;
+    border-bottom: 3px solid #f9dd94;
+}
+
+#aboutme .right-box {
+    padding: 25px 15px;
+}
+#aboutme .right-box p {
+    line-height: 27px;
+    font-size: 20px;
+    margin: 0 10px 15px 0;
 }
 
 
