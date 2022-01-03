@@ -39,7 +39,9 @@ nav ul {
     justify-content: flex-end;
     margin: 20px 20px;
 }
-nav ul li, .contacts ul li { 
+nav ul li,
+.contacts ul li, 
+.skills-box ul li { 
     list-style-type: none;  
 } 
 nav ul li a{ 
@@ -118,10 +120,12 @@ main {
     margin-top: 20px;
 }
 
-#aboutme .left-box {
+#aboutme .left-box,
+#skills .left-box {
     padding: 25px;
 }
-#aboutme .left-box h2 {
+#aboutme .left-box h2,
+#skills .left-box h2  {
     display: inline-flex; 
     align-self: baseline;
     border-bottom: 3px solid #f9dd94;
@@ -135,6 +139,26 @@ main {
     font-size: 20px;
     margin: 0 10px 15px 0;
 }
+.skills-box {
+    padding: 25px 15px;
+}
+.skills-box ul {
+    margin-top: 3px;
+}
+.skills-box li {
+    margin-bottom: 5px;
+    font-size: 21px;
+}
+.education {
+    line-height: 27px;
+    font-size: 20px;
+}
+.education h3 {
+    font-size: 24px;
+    font-weight: 500;
+    margin-top: 10px;
+}
+
 
 
 /* Footer */
