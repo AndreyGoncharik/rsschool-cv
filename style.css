@@ -15,6 +15,7 @@ time, mark, audio, video {
 	padding: 0;
 	border: 0;
     font-family: 'Roboto', sans-serif;
+    color: #534e4a;
 	vertical-align: baseline;
     box-sizing: border-box;
 }
@@ -30,21 +31,93 @@ body {
      background-color: #fff;
      box-shadow: 0 -2px 6px rgb(14 21 47 / 2%), 0 6px 18px rgb(14 21 47 / 5%);
  }
+
+/* Nav  */
 nav ul {
     display: flex; 
     flex-direction: row;
     justify-content: flex-end;
-    margin: 10px 20px;
-} 
-nav ul li { 
+    margin: 20px 20px;
+}
+nav ul li, .contacts ul li { 
     list-style-type: none;  
 } 
 nav ul li a{ 
     text-decoration: none;
+    margin-right: 10px;
+    font-size: 21px;
 }
+ul li a:hover {
+    color: #db684d;
+}
+
+.flex-box {
+    display: flex; 
+    flex-direction: row;
+    flex-wrap: wrap;
+
+}
+.left-box {
+    display: flex;
+    flex-wrap: wrap; 
+    flex-basis: 45%;
+    justify-content: flex-end;
+}
+.right-box {
+    display: flex;
+    flex-wrap: wrap; 
+    flex-basis: 55%;
+    justify-content: flex-end;
+
+}
+
+/* Header */
+header {
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.avatar {
+    width: 300px;
+    height: 300px;
+}
+.avatar img {
+    height: 100%;
+    width: auto;
+}
+.contacts {
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 15px;
+}
+h1 {
+    color: #534e4a;
+    font-weight: 400;
+}
+.contacts h2 {
+    margin: 20px 0 0 0;
+    font-weight: 400;
+}
+.contacts ul {    
+    display: flex; 
+    flex-direction: row;
+    margin: 5px 0  0 2px;
+}
+.contacts ul li {
+    margin-right: 10px;
+    font-size: 21px;
+}
+.contacts ul li a{
+    text-decoration: none;
+}
+
+/* Main */
 main {
     flex: 1 0 auto;
 }
+
+
+/* Footer */
 footer {
     flex: 0 0 auto;
     display: flex; 
@@ -59,8 +132,4 @@ footer div {
 }
 .rslogo img, .git-footer img{
     height: 22px;
-}
-
-h1 {
-    color: red;
 }
