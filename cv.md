@@ -18,3 +18,7 @@ function digits(n) {
 }
 ```
 ---
+**Languages:**
+Belarussin - native
+Russian - native
+English - B1
