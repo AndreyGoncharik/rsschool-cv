@@ -121,11 +121,13 @@ main {
 }
 
 #aboutme .left-box,
-#skills .left-box {
+#skills .left-box,
+#code .left-box {
     padding: 25px;
 }
 #aboutme .left-box h2,
-#skills .left-box h2  {
+#skills .left-box h2,
+#code .left-box h2 {
     display: inline-flex; 
     align-self: baseline;
     border-bottom: 3px solid #f9dd94;
@@ -159,6 +161,18 @@ main {
     margin-top: 10px;
 }
 
+#code p {
+    line-height: 27px;
+    font-size: 20px;
+    margin: 0 10px 15px 0;
+}
+#code pre {
+    padding: 0 20px 20px 20px;
+    background-color: #c8d7f2;
+}
+#code a {
+    color:#db684d;
+}
 
 
 /* Footer */
@@ -169,11 +183,11 @@ footer {
     justify-content: center;
     align-items: center;
     min-height: 50px;
-    border: 1px solid grey;
 }
 footer div {
     flex-basis: 100px;
 }
+.year {font-weight: 600;}
 .rslogo img, .git-footer img{
     height: 22px;
 }
